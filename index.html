@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Mastery Hub | AMIRQULOV ELYOR 2026</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========== HEADER / HERO SECTION ========== -->
+    <header class="hero glass-card">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="gradient-text">IELTS Mastery Hub</h1>
+                <p class="hero-subtitle">Your Complete IELTS Preparation Platform</p>
+                <div class="hero-badges">
+                    <span class="badge"><i class="fas fa-robot"></i> AI-Powered</span>
+                    <span class="badge"><i class="fas fa-chart-line"></i> Track Progress</span>
+                    <span class="badge"><i class="fas fa-users"></i> 10,000+ Students</span>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="creator-card">
+                    <div class="creator-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="creator-info">
+                        <h3>AMIRQULOV ELYOR</h3>
+                        <p>IELTS Expert & Creator</p>
+                        <span class="year-badge">2026 Edition</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== MAIN NAVIGATION ========== -->
+    <nav class="main-nav glass-card">
+        <button class="nav-btn active" data-section="ielts-overview">
+            <i class="fas fa-th-large"></i>
+            <span>IELTS Overview</span>
+        </button>
+        <button class="nav-btn" data-section="speaking">
+            <i class="fas fa-microphone"></i>
+            <span>Speaking</span>
+        </button>
+        <button class="nav-btn" data-section="listening">
+            <i class="fas fa-headphones"></i>
+            <span>Listening</span>
+        </button>
+        <button class="nav-btn" data-section="reading">
+            <i class="fas fa-book-open"></i>
+            <span>Reading</span>
+        </button>
+        <button class="nav-btn" data-section="writing">
+            <i class="fas fa-pen-fancy"></i>
+            <span>Writing</span>
+        </button>
+        <button class="nav-btn" data-section="ai-coach">
+            <i class="fas fa-brain"></i>
+            <span>AI Coach</span>
+        </button>
+    </nav>
+
+    <!-- ========== IELTS OVERVIEW SECTION ========== -->
+    <section id="ielts-overview" class="section-content glass-card active">
+        <div class="section-header">
+            <h2><i class="fas fa-graduation-cap"></i> IELTS Exam Sections</h2>
+            <p>Click on any module to start practicing</p>
+        </div>
+        <div class="modules-grid">
+            <div class="module-card" data-navigate="speaking">
+                <div class="module-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>SPEAKING</h3>
+                <p>11-14 minutes | 3 Parts</p>
+                <span class="module-tag">Face-to-face interview</span>
+            </div>
+            <div class="module-card" data-navigate="listening">
+                <div class="module-icon">
+                    <i class="fas fa-headphones-alt"></i>
+                </div>
+                <h3>LISTENING</h3>
+                <p>30 minutes | 4 Sections</p>
+                <span class="module-tag">40 questions</span>
+            </div>
+            <div class="module-card" data-navigate="reading">
+                <div class="module-icon">
+                    <i class="fas fa-glasses"></i>
+                </div>
+                <h3>READING</h3>
+                <p>60 minutes | 3 Passages</p>
+                <span class="module-tag">40 questions</span>
+            </div>
+            <div class="module-card" data-navigate="writing">
+                <div class="module-icon">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <h3>WRITING</h3>
+                <p>60 minutes | 2 Tasks</p>
+                <span class="module-tag">150 & 250 words</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SPEAKING SECTION ========== -->
+    <section id="speaking" class="section-content glass-card">
+        <div class="section-header">
+            <h2><i class="fas fa-microphone-alt"></i> Speaking Practice</h2>
+            <p>Master all three parts of the IELTS Speaking test</p>
+        </div>
+        <div class="speaking-grid">
+            <div class="speaking-card">
+                <h3>Part 1: Introduction & Interview</h3>
+                <p class="duration">4-5 minutes</p>
+                <div class="practice-area">
+                    <p class="question-prompt">"Tell me about your hometown."</p>
+                    <button class="btn-primary record-btn">
+                        <i class="fas fa-circle"></i> Start Recording
+                    </button>
+                    <div class="recording-status"></div>
+                </div>
+            </div>
+            <div class="speaking-card">
+                <h3>Part 2: Long Turn (Cue Card)</h3>
+                <p class="duration">3-4 minutes</p>
+                <div class="practice-area">
+                    <p class="question-prompt">Describe a memorable journey you have taken.</p>
+                    <button class="btn-primary timer-btn">
+                        <i class="fas fa-stopwatch"></i> Start 60s Preparation
+                    </button>
+                    <div class="timer-display"></div>
+                </div>
+            </div>
+            <div class="speaking-card">
+                <h3>Part 3: Discussion</h3>
+                <p class="duration">4-5 minutes</p>
+                <div class="practice-area">
+                    <p class="question-prompt">"How has travel changed in the last 20 years?"</p>
+                    <button class="btn-primary record-btn">
+                        <i class="fas fa-circle"></i> Start Recording
+                    </button>
+                    <div class="recording-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LISTENING SECTION ========== -->
+    <section id="listening" class="section-content glass-card">
+        <div class="section-header">
+            <h2><i class="fas fa-assistive-listening-systems"></i> Listening Practice</h2>
+            <p>Practice with authentic IELTS listening materials</p>
+        </div>
+        <div class="listening-layout">
+            <div class="audio-player glass-card">
+                <div class="audio-visualizer">
+                    <i class="fas fa-headphones"></i>
+                </div>
+                <h3>Section 1: Conversation</h3>
+                <button class="btn-primary play-audio-btn">
+                    <i class="fas fa-play"></i> Play Audio Sample
+                </button>
+                <div class="audio-status"></div>
+            </div>
+            <div class="questions-panel">
+                <h3>Questions 1-5</h3>
+                <div class="question-item">
+                    <span class="q-num">1.</span>
+                    <input type="text" placeholder="Your answer...">
+                </div>
+                <div class="question-item">
+                    <span class="q-num">2.</span>
+                    <input type="text" placeholder="Your answer...">
+                </div>
+                <div class="question-item">
+                    <span class="q-num">3.</span>
+                    <select>
+                        <option>Choose answer...</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+                <button class="btn-secondary">Check Answers</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== READING SECTION ========== -->
+    <section id="reading" class="section-content glass-card">
+        <div class="section-header">
+            <h2><i class="fas fa-book"></i> Reading Comprehension</h2>
+            <p>Three passages with increasing difficulty</p>
+        </div>
+        <div class="reading-passages">
+            <!-- Passage 1 -->
+            <div class="passage-card">
+                <div class="passage-header">
+                    <span class="passage-badge">Passage 1</span>
+                    <span class="difficulty easy">Easy</span>
+                </div>
+                <h3>The Rise of Remote Work</h3>
+                <p class="passage-excerpt">The global shift towards remote work has transformed how businesses operate. Studies show that productivity has increased by 47% in companies that adopted flexible working arrangements...</p>
+                <div class="passage-questions">
+                    <h4>True / False / Not Given</h4>
+                    <p>1. Remote work has decreased productivity in most companies.</p>
+                    <div class="answer-options">
+                        <button class="option-btn">True</button>
+                        <button class="option-btn">False</button>
+                        <button class="option-btn">Not Given</button>
+                    </div>
+                </div>
+                <button class="btn-outline show-hint-btn">Show Hint</button>
+                <div class="hint-content">Hint: Check paragraph 2 for statistics about productivity.</div>
+            </div>
+
+            <!-- Passage 2 -->
+            <div class="passage-card">
+                <div class="passage-header">
+                    <span class="passage-badge">Passage 2</span>
+                    <span class="difficulty medium">Medium</span>
+                </div>
+                <h3>Sustainable Urban Development</h3>
+                <p class="passage-excerpt">Modern cities face unprecedented challenges in balancing growth with environmental sustainability. Green architecture and smart city technologies are becoming essential components of urban planning...</p>
+                <div class="passage-questions">
+                    <h4>Matching Headings</h4>
+                    <p>Match each paragraph with the correct heading.</p>
+                    <select class="heading-select">
+                        <option>Select heading...</option>
+                        <option>i) Environmental challenges</option>
+                        <option>ii) Technological solutions</option>
+                        <option>iii) Future predictions</option>
+                    </select>
+                </div>
+                <button class="btn-outline show-hint-btn">Show Hint</button>
+                <div class="hint-content">Hint: Focus on the first and last sentences of each paragraph.</div>
+            </div>
+
+            <!-- Passage 3 -->
+            <div class="passage-card">
+                <div class="passage-header">
+                    <span class="passage-badge">Passage 3</span>
+                    <span class="difficulty hard">Hard</span>
+                </div>
+                <h3>Artificial Intelligence in Healthcare</h3>
+                <p class="passage-excerpt">Machine learning algorithms are revolutionizing medical diagnostics, with neural networks achieving accuracy rates comparable to experienced radiologists in detecting early-stage cancers...</p>
+                <div class="passage-questions">
+                    <h4>Summary Completion</h4>
+                    <p>Complete the summary using words from the passage.</p>
+                    <input type="text" placeholder="Your answer..." class="summary-input">
+                </div>
+                <button class="btn-outline show-hint-btn">Show Hint</button>
+                <div class="hint-content">Hint: Look for synonyms of "revolutionizing" in the text.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WRITING SECTION ========== -->
+    <section id="writing" class="section-content glass-card">
+        <div class="section-header">
+            <h2><i class="fas fa-feather-alt"></i> Writing Tasks</h2>
+            <p>Practice both Task 1 and Task 2 with sample prompts</p>
+        </div>
+        <div class="writing-grid">
+            <div class="writing-card">
+                <h3>Task 1 (Academic)</h3>
+                <p class="word-limit">Minimum 150 words</p>
+                <div class="writing-prompt">
+                    <h4>Chart Description</h4>
+                    <p>The graph below shows the percentage of people using the internet in three countries between 2000 and 2020.</p>
+                    <div class="mock-chart">
+                        <i class="fas fa-chart-bar"></i> [Chart Placeholder]
+                    </div>
+                </div>
+                <textarea placeholder="Write your response here..." rows="6"></textarea>
+                <div class="word-count">Words: 0</div>
+                <button class="btn-primary">Submit for Review</button>
+            </div>
+            <div class="writing-card">
+                <h3>Task 2 (Essay)</h3>
+                <p class="word-limit">Minimum 250 words</p>
+                <div class="writing-prompt">
+                    <h4>Opinion Essay</h4>
+                    <p>Some people believe that technology has made our lives more complicated. To what extent do you agree or disagree?</p>
+                </div>
+                <textarea placeholder="Write your essay here..." rows="6"></textarea>
+                <div class="word-count">Words: 0</div>
+                <button class="btn-primary">Submit for Review</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AI COACH SECTION ========== -->
+    <section id="ai-coach" class="section-content glass-card">
+        <div class="section-header">
+            <h2><i class="fas fa-robot"></i> AI IELTS Coach</h2>
+            <p>Get instant feedback on your writing and speaking</p>
+        </div>
+        <div class="ai-coach-layout">
+            <div class="ai-input-area">
+                <div class="input-type-selector">
+                    <button class="type-btn active" data-type="essay">Essay Analysis</button>
+                    <button class="type-btn" data-type="speaking">Speaking Feedback</button>
+                    <button class="type-btn" data-type="grammar">Grammar Check</button>
+                </div>
+                <textarea id="aiInput" placeholder="Paste your essay or speaking transcript here for AI analysis..."></textarea>
+                <button class="btn-primary analyze-btn">
+                    <i class="fas fa-magic"></i> Analyze with AI
+                </button>
+            </div>
+            <div class="ai-feedback-panel">
+                <div class="feedback-placeholder">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Feedback</h3>
+                    <p>Your analysis will appear here...</p>
+                </div>
+                <div class="feedback-content">
+                    <div class="score-display"></div>
+                    <div class="suggestions-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-card">
+        <p>© 2026 IELTS Mastery Hub | Creator: <strong>AMIRQULOV ELYOR</strong></p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
